@@ -16,7 +16,7 @@ export const App = () => {
         {TODOLIST.map((item) => (
           <div className={style["item"]} key={item.id}>
             <input className={style["checkbox"]} type="checkbox" />
-            {item.id} --- {item.title}
+            {item.id} ---- {item.title}
           </div>
         ))}
       </div>
